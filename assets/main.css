@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #F0FFFF;
+}
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+.head1 {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  display: table;
+  margin: 5px auto;
+}
+h1 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.gradient-button {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-image: linear-gradient(to right, #9fa0ff 0%, #ff15ff 51%, #9fa0ff 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+.gradient-button:hover {
+    background-position: right center;
+}
+
+header {
+    padding-bottom: 75px;
+}
+
+.form {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0, .15);
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.name {
+    height: 35px;
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.input {
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    margin: 5px;
+    padding: 0 25px;
+    display: flex;
+    width: 100%;
+    outline: none;
+}
+
+.messages {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.messages > li {
+    padding: 10px;
+}
+
+.messages > li > span {
+    font-weight: 500;
+}
+
+.messages > li:nth-child(odd) {
+    background: #f0f0f0;
+}
