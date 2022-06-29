@@ -1,9 +1,9 @@
-# I-tech-4
+# LAB2-4-IT-tech
 
 Запрос на ввод имени пользователя:
 
-![image_2022-04-19_13-21-14](https://user-images.githubusercontent.com/84966031/163983809-de5dc1a3-4733-48e6-8000-87a65a0d4b17.png)
+![image](https://user-images.githubusercontent.com/91610671/176534324-7c797c5c-96ee-44e7-af15-49e3279c567a.png)
 
-Чат:
+Пример чата:
 
-![image_2022-04-19_13-22-39](https://user-images.githubusercontent.com/84966031/163983944-6079a175-7672-489b-a5ac-bd3d955cdae1.png)
+![image](https://user-images.githubusercontent.com/91610671/176534651-d956a4f7-6758-4777-bdb7-d431503f2fab.png)
